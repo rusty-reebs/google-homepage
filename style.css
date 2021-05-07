@@ -1,5 +1,8 @@
 /* CSS sheet for Google homepage */
 
+* {
+    font-family: Arial;
+}
 
 ul {
     list-style: none;
@@ -21,5 +24,85 @@ header li {
 
 header .right-nav {
     float: right;
+}
+
+.logo {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    width: auto;
+}
+
+#search {
+    position: absolute;
+    top: 275px;
+    left: 520px;
+    border: ;
+    width: 450px;
+    font-size: 30px;
+    margin-top: ;
+    margin-right: ;
+    border-radius: ;
+    
+}
+
+#googsearch {
+    position: absolute;
+    font-family: inherit;
+    background-color: ;
+    border: none;
+    height: 30px;
+    width: 150px;
+    top: 350px;
+    left: 580px;
+    font-size: 18px;
+}
+
+#lucky {
+    position: absolute;
+    font-family: inherit;
+    border: none;
+    height: 30px;
+    width: 160px;
+    top: 350px;
+    left: 750px;
+    font-size: 18px;
+}
+
+#signin {
+    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: ghostwhite;
+    width: 82px;
+    height: 30px;
+    border: none;
+    border-radius: 5%;
+    margin-top: 7px;
+    background-color: #4C8BF5;
+    padding:
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+
+}
+footer li a {
+    display: block;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+footer li {
+   
+    float: left;
+}
+
+footer .right {
+   
+    float: right;
+    
 }
 
